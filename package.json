@@ -1,0 +1,81 @@
+{
+    "author": "Gertjan Krediet (based on Heule's Obsidian)",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "gj_rain_12",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "GJ_RAIN_12",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "MESSAGE_KEY_ColorTheme": 12,
+            "MESSAGE_KEY_LayoutBattery": 6,
+            "MESSAGE_KEY_LayoutHandsWidth": 14,
+            "MESSAGE_KEY_LayoutLugs": 13,
+            "MESSAGE_KEY_LayoutTicks": 7,
+            "MESSAGE_KEY_LocationAge": 9,
+            "MESSAGE_KEY_WeatherApiKey": 15,
+            "MESSAGE_KEY_WeatherCity": 11,
+            "MESSAGE_KEY_WeatherExpire": 8,
+            "MESSAGE_KEY_WeatherLatitude": 1,
+            "MESSAGE_KEY_WeatherLongitude": 2,
+            "MESSAGE_KEY_WeatherProvider": 16,
+            "MESSAGE_KEY_WeatherRain": 10,
+            "MESSAGE_KEY_WeatherRefresh": 4,
+            "MESSAGE_KEY_WeatherRefreshRain": 5,
+            "MSG_KEY_FETCH_DATA": 109,
+            "MSG_KEY_FETCH_WEATHER": 102,
+            "MSG_KEY_JS_READY": 103,
+            "MSG_KEY_WEATHER_CITY": 105,
+            "MSG_KEY_WEATHER_FAILED": 104,
+            "MSG_KEY_WEATHER_GEOCITY": 108,
+            "MSG_KEY_WEATHER_ICON": 101,
+            "MSG_KEY_WEATHER_RAIN": 106,
+            "MSG_KEY_WEATHER_TEMP": 100,
+            "MSG_KEY_WEATHER_T_RAIN": 107
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9:\u00b0a-jzA-IZ\\-]",
+                    "file": "fonts/nupe2.ttf",
+                    "name": "NUPE_23",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:\u00b0a-jzA-IZ\\-]",
+                    "file": "fonts/nupe2-small.ttf",
+                    "name": "NUPE_23",
+                    "targetPlatforms": [
+                        "basalt",
+                        "aplite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "uuid": "edafee8f-6e97-4c2e-a4f4-25c2d9f4b66a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.3.0"
+}
