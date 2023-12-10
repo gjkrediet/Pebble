@@ -181,7 +181,7 @@ function fetchWeather(latitude, longitude) {
 function fetchgglcity(latitude, longitude) {
     // De plaatsnaam bij lat / lon
   var req = new XMLHttpRequest();
-  var myAPIKey='AIzaSyBSwkeWzOW6dhpHL3opL5GuX3ZNw_CcdnM';
+  var myAPIKey='YOURKEY';
   req.timeout=timeout;
   req.open ('GET', 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+ latitude + ','+ longitude + '&key=' + myAPIKey);
   req.onload = function () {
